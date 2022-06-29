@@ -1,0 +1,209 @@
+.header{
+  background-color: #F2CEDA;
+}
+
+.container{
+  width: 1125px;
+  margin: 0 auto;
+}
+
+body{
+ overflow-x: hidden;
+ margin: 0;
+ padding: 0;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list{
+  display: flex;
+  padding: 0;
+}
+
+a span{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #D23166;
+}
+
+.nav-list-item{
+  margin-left: 40px;
+  list-style: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #150101;
+  opacity: 0.6
+}
+
+a{
+  text-decoration: none;
+  transition: 0.5s linear;
+}
+
+a:hover {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #D23166;
+}
+
+.btn-nav{
+  width: 165px;
+  height: 49px;
+  background: #D23166;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Hind Madurai';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FAFAFA;
+  cursor: pointer;
+}
+
+.contents{
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 87px 0 150px;
+  
+}
+
+.contents img{
+  position: absolute;
+  left: 550px;
+  top: 37px;
+  
+}
+
+
+.sup-title{
+  padding-left: 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #0F0101;
+}
+
+
+.header-text {
+  width: 651px;
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57.33px;
+  line-height: 120.5%;
+  color: #0F0101;
+  padding-bottom: 34px;
+}
+
+.header-text::after{
+  content: 'ice-cream.';
+  color:#D23166;
+}
+
+
+.comment{
+  width: 523px;
+  height: 77px;
+  font-family: 'Hind Madurai';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0F0101;
+  opacity: 0.6;
+  padding-bottom: 49px;
+}
+
+.btn-header{
+  width: 165px;
+  height: 49px;
+  background: #D23166;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Hind Madurai';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FAFAFA;
+  cursor: pointer;
+}
+
+.holder{
+  margin-top: 100px;
+  display: flex;
+  column-gap: 39px;
+}
+
+.box{
+  padding: 33px 26px 27px;
+  text-align: center;
+  width: 250px;
+  height: 190px;
+  background: #FFFFFF;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+  border-radius: 7px;
+}
+
+.box .card-title{
+  font-family: 'Hind Madurai';
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.box .card-paragrft{
+  font-family: 'Hind Madurai';
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.holder .box{
+  transition: all 0.3s linear;
+}
+
+.holder .box:hover{
+  background-color:#D23166;
+  border: 1px solid deepskyblue; 
+  transform: scale(1.05);
+}
+
+.section-two{
+  padding: 47px 0 33px 0;
+  background-color: #D23166;
+
+} 
+.rith-side{
+  background-image: url(../imges/section-ice-image\(1\).png);
+  background-size: 100%;
+  background-position: left top,
+} 
+
+
+
+
+
+
+
+
+
+
